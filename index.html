@@ -1235,6 +1235,8 @@
           });
         </script>
         <script>
+          document.querySelector('.owl-stage').style.display = 'flex';
+
           function findTitle(element) {
             if (element.hasChildNodes()) {
               if (element.className.includes('product-item-name')) {
@@ -1250,9 +1252,6 @@
               findTitle(this);
             });
           });
-
-
-          document.querySelector('.owl-stage').style.display = 'flex';
         </script>
       </div>
     </div>
